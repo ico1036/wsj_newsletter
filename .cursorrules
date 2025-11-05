@@ -1,0 +1,74 @@
+# WSJ 뉴스 분석 워크플로우
+
+## 개요
+
+이 워크플로우는 WSJ Finance 섹션의 뉴스를 수집, 분석, 검증하여 종합 분석 문서를 생성합니다.
+
+## 사용 방법
+
+### 기본 실행
+
+Cursor 채팅에서 다음 명령어로 실행:
+
+```
+WSJ 뉴스 분석해줘
+```
+
+또는
+
+```
+@00_orchestrator WSJ Finance 섹션 분석 실행
+```
+
+### 특정 날짜 분석
+
+```
+@00_orchestrator 2025년 11월 3일 뉴스 분석
+```
+
+### 부분 실행
+
+특정 단계만 실행하고 싶을 경우:
+
+```
+@00_orchestrator 팩트 체크만 다시 해줘  # 4단계만 실행
+@00_orchestrator 문서화만 해줘          # 5단계만 실행
+```
+
+## 워크플로우 단계
+
+1. **크롤링** (`@utils/crawler`): WSJ Finance 섹션에서 기사 목록 수집
+2. **카테고리 분류** (`@utils/categorizer`): 기사를 카테고리별로 분류
+3. **기사 분석** (`@utils/analyzer`): 각 기사 내용 분석 및 원문 저장
+4. **팩트 체크** (`@utils/fact_checker`): 핵심 사실 검증
+5. **문서화** (`@utils/documenter`): 최종 마크다운 문서 생성
+
+## 에이전트 목록
+
+- `@00_orchestrator`: 전체 워크플로우 조율
+- `@utils/crawler`: WSJ 크롤링
+- `@utils/categorizer`: 카테고리 분류
+- `@utils/analyzer`: 기사 내용 분석
+- `@utils/fact_checker`: 팩트 체크
+- `@utils/documenter`: 문서화
+
+## 출력 파일
+
+- **최종 문서**: `WSJ_Finance_Daily_Analysis_YYYYMMDD.md`
+- **중간 데이터**: `data/YYYYMMDD/` 폴더
+  - `raw_articles.json`: 크롤링 결과
+  - `categorized.json`: 카테고리 분류
+  - `analyzed_content.json`: 분석 결과
+  - `verified.json`: 검증 결과
+  - `articles/`: 원문 텍스트 파일들
+
+## 요구사항
+
+- WSJ 로그인 정보 (실행 시 입력)
+- Playwright MCP 서버 (브라우저 자동화)
+- Cursor 구독 (API 비용 없음)
+
+## 참고
+
+자세한 설계 토론 내용은 `.agents/DESIGN_DISCUSSION.md`를 참조하세요.
+
