@@ -1,0 +1,246 @@
+{
+  "crawl_date": "2026-01-21",
+  "source": "WSJ Finance Section",
+  "market_data": {
+    "us_markets": {
+      "djia": {"value": 48488.59, "change_pct": -1.76},
+      "sp500": {"value": 6796.86, "change_pct": -2.06},
+      "nasdaq": {"value": 22954.32, "change_pct": -2.39},
+      "russell2000": {"value": 2645.36, "change_pct": -1.21}
+    },
+    "key_indicators": {
+      "us_10yr": {"yield": 4.291, "change": 0.00},
+      "vix": {"value": 20.09, "change_pct": 26.67},
+      "gold": {"value": 4780.20, "change_pct": 0.30},
+      "bitcoin": {"value": 88323.69, "change_pct": -1.39},
+      "crude_oil": {"value": 60.53, "change_pct": 1.83},
+      "dollar_index": {"value": 96.09, "change_pct": 0.00}
+    },
+    "sp500_leaders": [
+      {"symbol": "SNDK", "name": "Sandisk Corp.", "price": 457.70, "change_pct": 1.01},
+      {"symbol": "ALB", "name": "Albemarle", "price": 172.54, "change_pct": 5.83},
+      {"symbol": "EXE", "name": "Exelon", "price": 104.75, "change_pct": 4.88},
+      {"symbol": "STZ", "name": "Constellation Brands", "price": 163.64, "change_pct": 4.47},
+      {"symbol": "NEM", "name": "Newmont", "price": 118.94, "change_pct": 4.22}
+    ],
+    "sp500_laggards": [
+      {"symbol": "NTAP", "name": "NetApp", "price": 94.11, "change_pct": -9.37},
+      {"symbol": "NCLH", "name": "Norwegian Cruise Line", "price": 20.37, "change_pct": -7.45},
+      {"symbol": "DELL", "name": "Dell Technologies", "price": 110.97, "change_pct": -0.09},
+      {"symbol": "MMM", "name": "3M", "price": 156.74, "change_pct": 0.40},
+      {"symbol": "LULU", "name": "Lululemon", "price": 188.76, "change_pct": -6.49}
+    ]
+  },
+  "articles": [
+    {
+      "id": "001",
+      "title": "Tensions Over Greenland Rattle Wall Street",
+      "url": "https://www.wsj.com/finance/stocks/global-stocks-markets-dow-news-01-20-2026-e509b702?mod=finance_lead_story",
+      "preview": "Stocks, bonds and the dollar slumped after tensions over Greenland and trade threats. The Nasdaq composite slid 2.4% in its worst day since October.",
+      "published_time": "1 hour ago"
+    },
+    {
+      "id": "002",
+      "title": "SpaceX Spat Ends in Defeat for Activist Boaz Weinstein",
+      "url": "https://www.wsj.com/finance/investing/spacex-boaz-weinstein-hedge-fund-investment-a4fb1309?mod=finance_lead_pos1",
+      "preview": "The hedge-fund rabble-rouser failed to wrest control of a U.K. investment trust prized for its valuable SpaceX shares.",
+      "published_time": "5 hours ago"
+    },
+    {
+      "id": "003",
+      "title": "Could Netflix Stumble?",
+      "url": "https://www.wsj.com/finance/investing/could-netflix-stumble-eccf654c?mod=finance_lead_pos2",
+      "preview": "Plus, Greenland angst gets real",
+      "published_time": "12 hours ago"
+    },
+    {
+      "id": "004",
+      "title": "Goldman Sachs Grapples With Top Lawyer's Epstein Problem",
+      "url": "https://www.wsj.com/finance/goldman-sachs-ruemmler-epstein-8c8255fd?mod=finance_lead_pos3",
+      "preview": "A key executive told others he was formulating a contingency plan for Kathryn Ruemmler to leave after revelations about her Epstein ties.",
+      "published_time": "22 hours ago"
+    },
+    {
+      "id": "005",
+      "title": "NYSE to Launch 24/7 Trading Platform for Blockchain-Based Securities",
+      "url": "https://www.wsj.com/finance/currencies/nyse-to-launch-24-7-trading-platform-for-blockchain-based-securities-8313526a?mod=finance_lead_pos4",
+      "preview": "Some of the biggest names on Wall Street have recently announced tokenization initiatives.",
+      "published_time": "January 20, 2026"
+    },
+    {
+      "id": "006",
+      "title": "Trump Wants Greenland. Markets Don't Know What to Make of That.",
+      "url": "https://www.wsj.com/finance/investing/trump-wants-greenland-markets-dont-know-what-to-make-of-that-a9fc6b9e?mod=finance_lead_pos5",
+      "preview": "A new world order might be so hard to imagine that investors just ignore it.",
+      "published_time": "January 20, 2026"
+    },
+    {
+      "id": "007",
+      "title": "Netflix Revenue, Profit Rise as Subscriptions Top 325 Million",
+      "url": "https://www.wsj.com/business/media/netflix-nflx-q4-earnings-report-2025-6986e192?mod=finance_whatsnews_pos3",
+      "preview": "",
+      "published_time": "19 min ago"
+    },
+    {
+      "id": "008",
+      "title": "Bessent Turns Up the Heat on Fed's Powell",
+      "url": "https://www.wsj.com/economy/central-banking/treasury-secretary-scott-bessent-turns-up-the-heat-on-fed-chair-jerome-powell-8ad7dce2?mod=finance_whatsnews_pos5",
+      "preview": "",
+      "published_time": "3 hours ago"
+    },
+    {
+      "id": "009",
+      "title": "To Make Homes Affordable Again, Someone Has to Lose Out",
+      "url": "https://www.wsj.com/economy/housing/to-make-homes-affordable-again-someone-has-to-lose-out-ce397bdd?mod=finance_feat1_hots_pos1",
+      "preview": "",
+      "published_time": "13 hours ago"
+    },
+    {
+      "id": "010",
+      "title": "Are Megabanks Next in the Crackdown on Stock Buybacks?",
+      "url": "https://www.wsj.com/finance/regulation/are-megabanks-next-in-trumps-crackdown-on-stock-buybacks-e696b466?mod=finance_feat1_hots_pos2",
+      "preview": "",
+      "published_time": "January 19, 2026"
+    },
+    {
+      "id": "011",
+      "title": "As Tech Giants Get More Hands-On With Energy, Their Risks Rise",
+      "url": "https://www.wsj.com/business/energy-oil/as-tech-giants-get-more-hands-on-with-energy-their-risks-rise-aa5bb8e9?mod=finance_feat1_hots_pos3",
+      "preview": "",
+      "published_time": "January 16, 2026"
+    },
+    {
+      "id": "012",
+      "title": "It's Not Time to Dump Megabank Shares Just Yet",
+      "url": "https://www.wsj.com/finance/banking/its-not-time-to-dump-megabank-shares-just-yet-2254eba7?mod=finance_feat1_hots_pos4",
+      "preview": "",
+      "published_time": "January 15, 2026"
+    },
+    {
+      "id": "013",
+      "title": "The Collapse of a Car-Parts Supplier Puts Spotlight on How Cash Flow Can Lie",
+      "url": "https://www.wsj.com/finance/the-collapse-of-a-car-parts-supplier-puts-spotlight-on-how-cash-flow-can-lie-9c26452b?mod=finance_feat1_hots_pos5",
+      "preview": "",
+      "published_time": "January 14, 2026"
+    },
+    {
+      "id": "014",
+      "title": "Citi Hires Former Paramount Executive to Head Media Banking",
+      "url": "https://www.wsj.com/business/media/citi-hires-former-paramount-executive-to-head-media-banking-5b25f99e?mod=finance_feat2_banking_pos2",
+      "preview": "",
+      "published_time": "9 hours ago"
+    },
+    {
+      "id": "015",
+      "title": "Bank CEOs Carefully Push Back on Trump's Credit-Card Rate Cap",
+      "url": "https://www.wsj.com/finance/banking/banks-ceos-carefully-push-back-on-trumps-credit-card-rate-cap-975a461b?mod=finance_feat2_banking_pos4",
+      "preview": "",
+      "published_time": "January 17, 2026"
+    },
+    {
+      "id": "016",
+      "title": "PNC Profit Rises as Loans Increase",
+      "url": "https://www.wsj.com/business/earnings/pnc-profit-rises-as-loans-increase-5f409466?mod=finance_feat2_banking_pos5",
+      "preview": "",
+      "published_time": "January 16, 2026"
+    },
+    {
+      "id": "017",
+      "title": "WSJ Dollar Index Falls 0.3%",
+      "url": "https://www.wsj.com/finance/currencies/asian-currencies-consolidate-as-traders-fret-over-greenland-tensions-a55b5ded?mod=finance_feat3_investing_pos1",
+      "preview": "",
+      "published_time": "1 hour ago"
+    },
+    {
+      "id": "018",
+      "title": "Leggett & Platt Enters Non-Disclosure Agreement With Suitor Somnigroup",
+      "url": "https://www.wsj.com/business/leggett-platt-enters-non-disclosure-agreement-with-suitor-somnigroup-65f9e81b?mod=finance_feat3_investing_pos4",
+      "preview": "",
+      "published_time": "11 hours ago"
+    },
+    {
+      "id": "019",
+      "title": "Japan's Long-Term Bond Yields Surge as Looming Election Triggers Fiscal Worries",
+      "url": "https://www.wsj.com/economy/japans-long-term-bond-yields-surge-as-looming-election-triggers-fiscal-worries-cbc488d2?mod=finance_feat3_investing_pos5",
+      "preview": "",
+      "published_time": "19 hours ago"
+    },
+    {
+      "id": "020",
+      "title": "Global Stocks Retreat After Trump Tariff Threat",
+      "url": "https://www.wsj.com/finance/stocks/global-stocks-retreat-after-trump-tariff-threat-eceb09d9?mod=finance_feat4_stocks_pos1",
+      "preview": "",
+      "published_time": "January 20, 2026"
+    },
+    {
+      "id": "021",
+      "title": "Europe's Markets Tumble on Trump's Tariff Threats, But Analysts Caution Against Panic",
+      "url": "https://www.wsj.com/finance/stocks/global-equities-fall-as-investors-look-to-havens-after-trump-tariff-threats-be1ae2be?mod=finance_feat4_stocks_pos2",
+      "preview": "",
+      "published_time": "January 19, 2026"
+    },
+    {
+      "id": "022",
+      "title": "The Magnificent Seven Drove Markets. Now They're Pulling in Different Directions.",
+      "url": "https://www.wsj.com/finance/stocks/mag-7-stocks-ai-trade-766bf561?mod=finance_feat4_stocks_pos4",
+      "preview": "",
+      "published_time": "January 19, 2026"
+    },
+    {
+      "id": "023",
+      "title": "Gold Consolidates; May Face Technical Correction",
+      "url": "https://www.wsj.com/finance/commodities-futures/gold-consolidates-may-face-technical-correction-f9528924?mod=finance_feat5_commodities-futures_pos1",
+      "preview": "",
+      "published_time": "12 min ago"
+    },
+    {
+      "id": "024",
+      "title": "Rio Tinto Produced More Copper, Slightly Less Iron Ore Last Year",
+      "url": "https://www.wsj.com/business/rio-tinto-produced-more-copper-slightly-less-iron-ore-last-year-013a5789?mod=finance_feat5_commodities-futures_pos2",
+      "preview": "",
+      "published_time": "44 min ago"
+    },
+    {
+      "id": "025",
+      "title": "Natural Gas Futures Soar on Cold Winter Blast",
+      "url": "https://www.wsj.com/finance/commodities-futures/european-gas-prices-rise-on-colder-weather-low-storage-levels-1e63eee6?mod=finance_feat5_commodities-futures_pos5",
+      "preview": "",
+      "published_time": "3 hours ago"
+    },
+    {
+      "id": "026",
+      "title": "Fears Over Greenland Impact on Dollar Might be Overdone",
+      "url": "https://www.wsj.com/finance/currencies/yen-mostly-strengthens-amid-lingering-risks-of-japan-fx-intervention-55d7581d?mod=finance_feat6_currencies_pos1",
+      "preview": "",
+      "published_time": "January 19, 2026"
+    },
+    {
+      "id": "027",
+      "title": "Fed Turmoil Is Threatening Dollar Supremacy Just as China Pushes the Yuan",
+      "url": "https://www.wsj.com/finance/currencies/fed-turmoil-is-threatening-dollar-supremacy-just-as-china-pushes-the-yuan-3ebb781d?mod=finance_feat6_currencies_pos2",
+      "preview": "",
+      "published_time": "January 18, 2026"
+    },
+    {
+      "id": "028",
+      "title": "Swedbank Shares Climb After U.S. Justice Department Closes Probe",
+      "url": "https://www.wsj.com/finance/swedbank-shares-climb-after-u-s-justice-department-closes-probe-9e36e5c1?mod=finance_feat7_regulation_pos1",
+      "preview": "",
+      "published_time": "January 15, 2026"
+    },
+    {
+      "id": "029",
+      "title": "Banks Cry Foul Over High-Yielding Tokens as Crypto Fight Simmers in Washington",
+      "url": "https://www.wsj.com/finance/regulation/banks-and-crypto-clash-over-tokens-that-pay-more-than-deposits-c9159c0e?mod=finance_feat7_regulation_pos2",
+      "preview": "",
+      "published_time": "January 15, 2026"
+    },
+    {
+      "id": "030",
+      "title": "Trump Calls for 10% Cap on Credit-Card Interest Rates",
+      "url": "https://www.wsj.com/finance/regulation/trump-calls-for-10-cap-on-credit-card-interest-rates-73365952?mod=finance_feat7_regulation_pos5",
+      "preview": "",
+      "published_time": "January 10, 2026"
+    }
+  ]
+}
